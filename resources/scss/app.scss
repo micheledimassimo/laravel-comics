@@ -1,15 +1,30 @@
 @import "~bootstrap/scss/bootstrap";
 
-main {
-    background-color: lightcoral;
+.active {
+    color: #0282F9;
 }
 
-.gatto-img {
-    height: 200px;
-}
+header {
+    nav {
+        padding: 20px;
+        align-items: center;
+        ul {
+            list-style: none;
+            li {
+                padding-left: 15px;
+                a {
+                    text-decoration: none;
+                    color: black;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1.3rem;
+                }
+            }
+        }
+    }
+ }
+ img {
+    max-width: 100%;
+ }
 
-.gatto-bg {
-    height: 200px;
-    background-image: url('../img/gatto.webp');
-    background-size: contain;
-}
+
